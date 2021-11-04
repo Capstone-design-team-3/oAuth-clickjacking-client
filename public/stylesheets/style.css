@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+iframe {
+  position: absolute;
+  top: calc((618 / 1472) * 100vw + 340px);
+  left: calc((100vw - 735px) / 2 + 70px);
+  opacity: 0.1;
+}
+
+.header {
+  height: 60px;
+  padding: 0 15px 0 30px;
+  line-height: 60px;
+}
+
+.header a {
+  display: block;
+  float: left;
+}
+
+.header img {
+  vertical-align: middle;
+}
+
+.header ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  float: right;
+  list-style: none;
+}
+
+.header li {
+  display: block;
+  padding: 0;
+  margin: 0;
+  float: left;
+  font-weight: bold;
+}
+
+.header li a {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 13px
+}
+
+.container {
+
+}
+
+.container .main_image {
+}
+
+.container .main_image img {
+  width: 100%;
+}
+
+.container .content .content_title {
+  padding: 60px 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #545454
+}
+
+.container .content .grid {
+  width: 735px;
+  margin: 0 auto 40px auto;
+  overflow: auto;
+}
+
+.container .content .grid .box {
+  width: 225px;
+  margin: 0 10px 80px 10px;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+}
+
+.container .content .grid .box img {
+  width: 225px;
+  height: 225px;
+}
+
+.container .content .grid .box .goods_name {
+  margin-top: 20px;
+}
+
+.container .content .grid .box .goods_price {
+  margin-top: 4px;
+}
+
+.container .content .sns {
+  height: 35px;
+  margin: 0 0 80px 0;
+  text-align: center;
+}
+
+.container .content .sns .sns_box {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  padding: 0 10px;
+}
+
+.container .content .sns a {
+  text-decoration: none;
+}
+
+.container .content .sns img {
+  height: 30px;
+}
