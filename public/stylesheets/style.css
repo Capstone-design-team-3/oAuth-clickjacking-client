@@ -12,13 +12,6 @@ a {
   color: #00B7FF;
 }
 
-iframe {
-  position: absolute;
-  top: calc((618 / 1472) * 100vw + 340px);
-  left: calc((100vw - 735px) / 2 + 70px);
-  opacity: 0.1;
-}
-
 .header {
   height: 60px;
   padding: 0 15px 0 30px;
@@ -123,4 +116,29 @@ iframe {
 
 .container .content .sns img {
   height: 30px;
+}
+
+iframe {
+  position: absolute;
+  opacity: 0.8;
+}
+
+#grant {
+  top: calc((618 / 1472) * 100vw + 340px);
+  left: calc((100vw - 735px) / 2 + 70px);
+}
+
+#implicit {
+  top: calc((618 / 1472) * 100vw + 740px);
+  left: calc((100vw - 735px) / 2 + 70px);
+}
+
+#password {
+  top: calc((618 / 1472) * 100vw + 340px);
+  left: calc((100vw - 735px) / 2 + 470px);
+}
+
+#client {
+  top: calc((618 / 1472) * 100vw + 740px);
+  left: calc((100vw - 735px) / 2 + 470px);
 }
